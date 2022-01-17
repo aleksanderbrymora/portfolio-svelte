@@ -4,12 +4,12 @@
 
 @font-face {
 	font-family: 'Cattedrale';
-	src: local(''), url('/Cattedrale.ttf') format('truetype');
+	src: local(''), url('/fonts/Cattedrale.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Heartless';
-	src: local(''), url('/Heartless.ttf') format('truetype');
+	src: local(''), url('/fonts/Heartless.ttf') format('truetype');
 }
 
 :root {
