@@ -13,7 +13,7 @@ github: https://github.com/aleksanderbrymora/Ceasar-and-Subtitution-Cypher
 
 # Caesar and Substitution Cypher - Encryption & Decryption
 
-![Showcase of bruteforce decryption](/static/projects/cipher.gif)
+![Showcase of bruteforce decryption](/projects/cipher.gif)
 
 My first, big programming project, that was written in C. 
 

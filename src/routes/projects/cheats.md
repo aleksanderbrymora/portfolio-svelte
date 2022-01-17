@@ -14,7 +14,7 @@ website: https://gimme-cheats-client-git-master.aleksanderbrymora.vercel.app/cre
 
 # Cheats
 
-![Cheats usage showcase](/static/projects/cheats.gif)
+![Cheats usage showcase](/projects/cheats.gif)
 
 ## TLDR 
 

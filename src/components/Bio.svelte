@@ -74,7 +74,11 @@
 			class="flex flex-col gap-5 xl:h-[20rem] bg-zinc-100 p-5 rounded-xl shadow-md text-zinc-900"
 		>
 			<div class="flex gap-5 items-center">
-				<img src={selected.img} class="rounded-md xl:w-32 w-16" alt={`${selected.full} logo`} />
+				<img
+					src="/images/{selected.img}"
+					class="rounded-md xl:w-32 w-16"
+					alt={`${selected.full} logo`}
+				/>
 				<p class="xl:text-5xl text-2xl font-extrabold">{selected.full}</p>
 			</div>
 			<figcaption in:fade>{selected.description}</figcaption>

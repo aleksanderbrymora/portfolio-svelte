@@ -4,7 +4,7 @@
 
 <section id="about" class="grid md:grid-cols-3 gap-12">
 	<img
-		src="profile.jpg"
+		src="/images/profile.jpg"
 		alt="My face"
 		class={clsx([
 			// grid
