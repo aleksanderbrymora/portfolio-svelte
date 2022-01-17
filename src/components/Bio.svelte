@@ -39,12 +39,12 @@
 <section class="grid xl:grid-cols-2 gap-10 xl:h-[32rem] xl:items-center ">
 	<div class="flex justify-between flex-col gap-3 xl:gap-10 h-min">
 		{#each periodData as period}
-			<div class="flex">
+			<div class="flex relative">
 				{#if period.short === selected.short}
 					<svg
 						transition:fly={{ x: -10 }}
 						xmlns="http://www.w3.org/2000/svg"
-						class="h-8 w-8 absolute left-16"
+						class="h-8 w-8 absolute -left-10"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -58,11 +58,11 @@
 				<button
 					on:click={() => handleClick(period)}
 					class={clsx(
-						'text-3xl xl:text-5xl font-bold flex gap-2 items-center h-8 text-zinc-400',
+						'text-2xl xl:text-5xl font-bold flex gap-2 items-center h-8 text-zinc-400',
 						selected.short === period.short && 'text-white'
 					)}
 				>
-					<p class="text-left">{period.full}</p>
+					<p class="text-left leading-tight">{period.full}</p>
 				</button>
 			</div>
 		{/each}
@@ -70,14 +70,14 @@
 
 	{#key selected.short}
 		<figure
-			in:fly={{ x: -10 }}
-			class="flex flex-col gap-5 h-[20rem] bg-zinc-100 p-5 rounded-xl shadow-md text-zinc-900"
+			in:fly={{ x: -10, opacity: 0 }}
+			class="flex flex-col gap-5 xl:h-[20rem] bg-zinc-100 p-5 rounded-xl shadow-md text-zinc-900"
 		>
-			<div in:fade class="flex gap-5 items-center">
-				<img src={selected.img} class="rounded-md w-32" alt={`${selected.full} logo`} />
-				<p class="text-5xl font-extrabold">{selected.full}</p>
+			<div class="flex gap-5 items-center">
+				<img src={selected.img} class="rounded-md xl:w-32 w-16" alt={`${selected.full} logo`} />
+				<p class="xl:text-5xl text-2xl font-extrabold">{selected.full}</p>
 			</div>
-			<figcaption in:fade={{ delay: 200 }}>{selected.description}</figcaption>
+			<figcaption in:fade>{selected.description}</figcaption>
 		</figure>
 	{/key}
 </section>

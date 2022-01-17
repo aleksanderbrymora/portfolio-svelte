@@ -4,14 +4,18 @@
 			I'm a full-stack developer passionate about making usefull things in the best way possible.
 		</h2>
 		<div class="flex items-center gap-3 flex-col md:flex-row">
-			<button
-				class="bg-zinc-100 text-black w-56 rounded-full h-16 font-medium whitespace-nowrap px-4"
-				>Read about me</button
-			>
-			<button
-				class="text-zinc-100 border-2 border-zinc-500 w-56 rounded-full h-16 font-medium px-4 whitespace-nowrap"
-				>Check out my projects</button
-			>
+			<a href="#about">
+				<button
+					class="bg-zinc-100 text-black w-56 rounded-full h-16 font-medium whitespace-nowrap px-4 bg-opacity-90"
+					>Read about me</button
+				>
+			</a>
+			<a href="/projects">
+				<button
+					class="text-zinc-100 border-2 border-zinc-500 w-56 rounded-full h-16 font-medium px-4 whitespace-nowrap"
+					>Check out my projects</button
+				>
+			</a>
 		</div>
 	</div>
 	<h1 class="md:w-min mx-auto text-center text-red-800 col-start-1 row-start-1">

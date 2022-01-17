@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'Cattedrale';
+	src: local(''), url('/Cattedrale.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Heartless';
+	src: local(''), url('/Heartless.ttf') format('truetype');
+}
+
+:root {
+	scroll-behavior: smooth;
+}
+
 body {
-	@apply bg-white dark:bg-zinc-900 dark:text-white;
-	font-family: 'Open Sans', sans-serif;
+	@apply bg-zinc-900 text-white;
 }

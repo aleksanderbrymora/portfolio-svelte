@@ -1,9 +1,15 @@
 module.exports = {
 	content: ['./src/**/*.svelte', './src/**/*.css'],
 	dark: 'class',
-	theme: {},
+	theme: {
+		extend: {
+			gridTemplateColumns: {
+				project: '20rem auto'
+			}
+		}
+	},
 	variants: {
 		extend: {}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };

@@ -1,12 +1,9 @@
-<script context="module">
-	export const load = () => {
-		const files = import.meta.glob(`/static/tech-icons/*.{png,svg}`);
-		const transformed = Object.keys(files).map((f) => f.replace('/static/', ''));
-		return {
-			props: {
-				paths: transformed
-			}
-		};
+<script context="module" lang="ts">
+	import type { Load } from '@sveltejs/kit';
+	export const load: Load = async ({ fetch }) => {
+		const imgs = await fetch('/api/images.json');
+		const { paths } = await imgs.json();
+		return { props: { paths } };
 	};
 </script>
 
