@@ -3,16 +3,11 @@
 	export const load: Load = async ({ fetch }) => {
 		const projectPaths = await fetch('/api/projects.json');
 		const paths = await projectPaths.json();
-		return { props: { paths } };
+		return {
+			status: 302,
+			redirect: paths[0].path
+		};
 	};
 </script>
 
-<script>
-	export let paths;
-</script>
-
-<div class="flex flex-col">
-	{#each paths as p}
-		<a class="my-2 text-xl" href={p.path}>{p.meta.title}</a>
-	{/each}
-</div>
+<!-- this is just a redirect route to the first project in the list -->

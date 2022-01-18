@@ -1,4 +1,4 @@
-<section class="grid md:grid-cols-2 gap-10 md:gap-0">
+<section class="grid md:grid-cols-2 mt-36 gap-10 md:gap-0">
 	<div class="md:col-start-2 h-full md:row-start-1 row-start-2 grid gap-3 grid-cols-1 z-10">
 		<h2 class="text-3xl leading-normal font-semibold">
 			I'm a full-stack developer passionate about making usefull things in the best way possible.

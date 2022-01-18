@@ -20,15 +20,11 @@
 	}
 
 	export let paths: Project[];
-	let data: Project;
-
-	$: {
-		data = paths.find((p) => p.path === $page.url.pathname);
-	}
 </script>
 
-<section class="grid gap-16 xl:grid-cols-project">
-	<aside class="flex flex-col xl:gap-5 gap-2 sticky h-min">
+<h1 class="text-7xl font-bold mb-16 mt-10">Projects</h1>
+<section class="grid gap-16 xl:grid-cols-project items-start">
+	<aside class="flex flex-col xl:gap-5 gap-2 sticky h-min top-10">
 		{#each paths as p}
 			<a
 				class={clsx(
@@ -36,6 +32,7 @@
 					$page.url.pathname === p.path && 'text-zinc-800 bg-white rounded-xl '
 				)}
 				href={p.path}
+				aria-selected={$page.url.pathname === p.path}
 			>
 				<p class={clsx('font-bold text-lg')}>{p.meta.title}</p>
 				<div class="flex gap-2 items-center">
