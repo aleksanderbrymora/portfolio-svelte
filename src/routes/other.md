@@ -3,6 +3,10 @@
     img { @apply rounded-lg; }
 </style>
 
+<svelte:head>
+	<title>Aleksander Brymora | Other</title>
+</svelte:head>
+
 
 <article>
 

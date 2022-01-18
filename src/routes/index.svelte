@@ -17,6 +17,10 @@
 	export let paths;
 </script>
 
+<svelte:head>
+	<title>Aleksander Brymora</title>
+</svelte:head>
+
 <Hero />
 <SectionBreak />
 <About />
