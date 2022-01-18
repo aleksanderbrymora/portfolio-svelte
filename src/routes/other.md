@@ -4,7 +4,7 @@
 </style>
 
 <svelte:head>
-	<title>Aleksander Brymora | Other</title>
+	<title>Other | Aleksander Brymora</title>
 </svelte:head>
 
 

@@ -10,6 +10,7 @@
 <script>
 	import About from '../components/About.svelte';
 	import Bio from '../components/Bio.svelte';
+	import Contact from '../components/Contact.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Languages from '../components/Languages.svelte';
 	import SectionBreak from '../components/SectionBreak.svelte';
@@ -29,3 +30,4 @@
 <SectionBreak />
 <Languages {paths} />
 <SectionBreak />
+<Contact />

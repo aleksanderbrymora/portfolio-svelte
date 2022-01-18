@@ -19,8 +19,16 @@
 		path: string;
 	}
 
+	const capitalize = (str: string) => {
+		const [first, ...rest] = str.split('');
+		return [first.toUpperCase(), rest.join('').toLowerCase()].join('');
+	};
+
+	$: title = capitalize($page.url.pathname.replace(/\/projects\//, ''));
 	export let paths: Project[];
 </script>
+
+<svelte:head><title>{title} | Aleksander Brymora</title></svelte:head>
 
 <h1 class="text-7xl font-bold mb-16 mt-10">Projects</h1>
 <section class="grid gap-16 xl:grid-cols-project items-start">
