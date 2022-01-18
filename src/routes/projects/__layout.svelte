@@ -24,7 +24,7 @@
 
 <h1 class="text-7xl font-bold mb-16 mt-10">Projects</h1>
 <section class="grid gap-16 xl:grid-cols-project items-start">
-	<aside class="flex flex-col xl:gap-5 gap-2 sticky h-min top-10">
+	<aside class="flex flex-col xl:gap-5 gap-2 xl:sticky h-min top-10">
 		{#each paths as p}
 			<a
 				class={clsx(
