@@ -24,23 +24,23 @@
 		</div>
 		<p>
 			Github:
-			<a class="underline text-red-600" href="https://github.com/aleksanderbrymora">
+			<a class="underline text-red-400" href="https://github.com/aleksanderbrymora">
 				github.com/aleksanderbrymora
 			</a>
 		</p>
 		<p>
 			LinkedIn:
-			<a class="underline text-red-600" href="https://www.linkedin.com/in/aleksanderbrymora/">
+			<a class="underline text-red-400" href="https://www.linkedin.com/in/aleksanderbrymora/">
 				linkedin.com/in/aleksanderbrymora
 			</a>
 		</p>
 		<p>
 			Portfolio (recursion joke?):
-			<a class="underline text-red-600" href="https://ohaleks.dev"> ohaleks.dev </a>
+			<a class="underline text-red-400" href="https://ohaleks.dev"> ohaleks.dev </a>
 		</p>
 		<!-- <p>
 			CV
-			<a class="underline text-red-600" href="https://www.ohaleks.dev" download>download</a>
+			<a class="underline text-red-400" href="https://www.ohaleks.dev" download>download</a>
 		</p> -->
 	</div>
 </footer>

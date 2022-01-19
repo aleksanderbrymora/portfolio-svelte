@@ -18,7 +18,7 @@
 			</a>
 		</div>
 	</div>
-	<h1 class="md:w-min mx-auto text-center text-red-800 col-start-1 row-start-1">
+	<h1 class="md:w-min mx-auto text-center text-red-500 col-start-1 row-start-1">
 		Hi Im <br /> Aleks
 	</h1>
 </section>

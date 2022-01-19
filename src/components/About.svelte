@@ -25,6 +25,6 @@
 		I also love <span style="font-family: Cattedrale;">metal music</span>, producing music, 3D
 		printing, mechanical keyboards and woodworking.
 		<br />
-		<a href="/other" class="text-red-600 underline">Learn more about my hobbies here!</a>
+		<a href="/other" class="text-red-400 underline">Learn more about my hobbies here!</a>
 	</p>
 </section>

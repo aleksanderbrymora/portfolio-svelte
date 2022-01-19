@@ -39,7 +39,7 @@
 <section class="grid xl:grid-cols-2 gap-10 xl:h-[32rem] xl:items-center ">
 	<div class="flex justify-between flex-col gap-3 xl:gap-10 h-min">
 		{#each periodData as period}
-			<div class="flex relative">
+			<div aria-selected={selected.short === period.short} class="flex relative">
 				{#if period.short === selected.short}
 					<svg
 						transition:fly={{ x: -10 }}
@@ -47,6 +47,7 @@
 						class="h-8 w-8 absolute -left-10"
 						viewBox="0 0 20 20"
 						fill="currentColor"
+						aria-hidden="true"
 					>
 						<path
 							fill-rule="evenodd"

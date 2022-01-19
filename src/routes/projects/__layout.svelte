@@ -46,6 +46,7 @@
 				<div class="flex gap-2 items-center">
 					{#if p.meta.github}
 						<a
+							aria-label="${p.meta.title} github link"
 							class="w-8 h-8 grid place-items-center text-zinc-50 bg-zinc-50 rounded-full hover:bg-zinc-200 transition-all"
 							href={p.meta.github}
 						>
@@ -67,9 +68,11 @@
 					{/if}
 					{#if p.meta.website}
 						<a
+							aria-label="${p.meta.title} website link"
 							class="w-8 h-8 grid place-items-center text-zinc-50 bg-black rounded-full hover:bg-zinc-700 transition-all"
 							href={p.meta.website}
 							><svg
+								aria-label="an icon for redirecting to linked website"
 								xmlns="http://www.w3.org/2000/svg"
 								class="h-5 w-5"
 								viewBox="0 0 20 20"
