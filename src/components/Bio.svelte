@@ -27,7 +27,7 @@
 			short: 'pl',
 			full: 'Poland',
 			img: 'poland.gif',
-			description: `After 6 months of work for General Assembly I moved back to Poland, where I focused on bettering and honing in my programming skills in the evenings, all while working at various physical jobs at farm and construction during the day. After a year of that I'm committing fully to programming, so if you're hiring - contact is in the corner!`
+			description: `After 6 months of work for General Assembly I moved back to Poland, where I focused on bettering and honing in my programming skills in the evenings, all while working at various physical jobs at farm and construction during the day. After a year of that I'm committing fully to programming, so if you're hiring I'm open for offers!`
 		}
 	];
 
