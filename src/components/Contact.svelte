@@ -36,7 +36,7 @@
 		</p>
 		<p>
 			Portfolio (recursion joke?):
-			<a class="underline text-red-600" href="https://www.ohaleks.dev"> ohaleks.dev </a>
+			<a class="underline text-red-600" href="https://ohaleks.dev"> ohaleks.dev </a>
 		</p>
 		<!-- <p>
 			CV
