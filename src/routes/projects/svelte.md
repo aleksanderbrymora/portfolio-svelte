@@ -32,6 +32,4 @@ I'm using a mix of simple html for some websites, compiling a mix of Markdown wi
 One of the main goals was making the site as responsive and accessible as it can be; that means that I was checking color contrasts, focusing on easy-to-read spacing for all the text. 
 I was also making sure to use __semantic html tags__ to improve the experience for people using Screen Readers. 
 
-## Other 
-
 </article>
