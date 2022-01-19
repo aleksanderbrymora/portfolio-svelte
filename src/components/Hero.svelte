@@ -1,9 +1,9 @@
 <section class="grid md:grid-cols-2 mt-36 gap-10 md:gap-0">
 	<div class="md:col-start-2 h-full md:row-start-1 row-start-2 grid gap-3 grid-cols-1 z-10">
-		<h2 class="text-3xl leading-normal font-semibold">
+		<h2 class="text-3xl leading-normal font-semibold text-center md:text-left">
 			I'm a full-stack developer passionate about making usefull things in the best way possible.
 		</h2>
-		<div class="flex items-center gap-3 flex-col md:flex-row">
+		<div class="flex items-center gap-3 flex-col lg:flex-row mt-10 lg:mt-0">
 			<a href="#about">
 				<button
 					class="bg-zinc-100 text-black w-56 rounded-full h-16 font-medium whitespace-nowrap px-4 bg-opacity-90"
