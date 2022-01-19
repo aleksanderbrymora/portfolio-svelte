@@ -12,7 +12,7 @@ website: https://gimme-cheats-client-git-master.aleksanderbrymora.vercel.app/cre
 
 <article>
 
-# Cheats
+# Cheat sheets
 
 ![Cheats usage showcase](/projects/cheats.gif)
 
@@ -22,22 +22,22 @@ Generates .docx files from lists of words. A project that started my whole progr
 
 ## Story
 
-*Cheats* projects were inspired by my middle school experiences, where my friends used to make cheat sheets for language lessons and it used to take them ages to do so. That inspired me and my friend, back then, to create a first draft, written in Java (which I barely knew back then). It took in a list of words with their translations and converted them into a Word document with neatly formatted words (I have sadly lost that program). 
+The *Cheats sheets* projects was inspired by my middle school experiences, where my friends used to make cheat sheets for language lessons and it used to take them ages. That inspired me and my friend to create the first draft, written in Java (which I barely knew back then). It took in a list of words with their translations and converted them into a Word document with neatly formatted words (I have sadly lost that program). 
 
-The idea stayed and has been a jumping pad for me to learn new languages like Python, with which I used to create a cli version of the program learning the language from ground up to suit my needs. I also added a translation function that used an API to translate the words. Here is a link to that ages old project: [https://github.com/aleksanderbrymora/Cheat-sheets](https://github.com/aleksanderbrymora/Cheat-sheets) 
+The idea has stayed with me, and has been a launching pad to learn new languages like Python.  I used Python to create a CLI version of the program learning the language in the capacity that was suiting my needs at the time. I also added a translation function that used an API to translate the words. Here is a link to that age-old project: [https://github.com/aleksanderbrymora/Cheat-sheets](https://github.com/aleksanderbrymora/Cheat-sheets) 
 
 ![Early version of cheatsheet generation with python](/projects/cheats-python.gif)
 
-During my work at General Assembly I came back with my newfound knowledge to rewrite the app to run on the Web. I used Next.js as a Frontend Framework and focused heavily on making the app accessible - it's fully navigable by keyboard and uses aria tags to describe or label fields. Although I really liked that implementation it was flawed by my lack of experience and just a mess of organisation. In any case here is a reference for that code: [https://github.com/aleksanderbrymora/cheats](https://github.com/aleksanderbrymora/cheats) 
+During my work at General Assembly in Sydney, I used my newfound knowledge to rewrite the app to run on the Web. I used Next.js as a Frontend Framework and focused heavily on making the app accessible to visually impaired; it can be fully navigated with keyboard and uses aria tags to describe or label fields. Although I really liked that implementation, it was flawed by my lack of experience and lack of neatness. Here is a reference for that code: [https://github.com/aleksanderbrymora/cheats](https://github.com/aleksanderbrymora/cheats) 
 
-Full of confidence, after finishing the bootcamp, I took on the challenge to use my newest shiny knowledge to rewrite the app yet again, this time with scale in mind and with adding a backend to save the sheets for others to use. I first started with a React app and GraphQL backend in a monorepo structure which worked out nicely until I needed to start scaling the app to have more features. Lack of conventions when building from ground up can be a blessing or a curse, for me it's always a curse (here is a link to that project in a state I left it: [https://github.com/aleksanderbrymora/mobx-cheatsheets](https://github.com/aleksanderbrymora/mobx-cheatsheets)). 
+Full of confidence, after finishing the bootcamp, I took on the challenge to use my shiny new knowledge to rewrite the app yet again, this time with scale in mind and with adding a backend to save the sheets for others to use. I first started with a React app and GraphQL backend in a monorepo structure which worked out nicely. The next challenge was to scale up by adding even more features. Here is a link to that project where I left it: [https://github.com/aleksanderbrymora/mobx-cheatsheets](https://github.com/aleksanderbrymora/mobx-cheatsheets)). 
 
-I moved the project back to using Next.js and NestJS and you can have a look at it here: [https://github.com/aleksanderbrymora/gimme-cheats](https://github.com/aleksanderbrymora/gimme-cheats). NestJS certainly added structure to the project but really slowed it down, so I'm currently looking for new ways to improve the whole DX for myself all the while learning new and exciting things. I'm keeping a very close eye on Svelte Kit now!
+I moved the project back to Next.js and NestJS, and you can have a look at it here, that's the latest version: [https://github.com/aleksanderbrymora/gimme-cheats](https://github.com/aleksanderbrymora/gimme-cheats). NestJS certainly added structure to the project but for me personally, it has really slowed the progress down, so I'm currently looking for new ways to improve the whole DX for myself all the while learning new and exciting things. I'm keeping a very close eye on Svelte Kit now!
 
-This is definitely a favorite project of mine that I always come back to. I've created many iterations of it - to different degrees of success.
+This is definitely a favorite project of mine, one that often return to, as you can tell by the many iterations of it.
 
 ## Current stage 
 
-The app is very unfinished, but I think the code shows how much I put in into many iterations - so have a look in my github.
-Project is currently in hiatus, as I have more pressing ones on my mind. It's currently sitting on the backburner, waiting for me to discover some better (and easier) tech to build it with. All the ones before were solving issues with the previous techs, but created a whole suite of new hurdles. I'm eying Remix.run currently, but I'm waiting for their teaser to support Svelte to come true.
+The app is still work-in-progress, but I think the code shows how much I've put into its many iterations, just have a look at my Github.
+The project is currently in hiatus, as I have more pressing ones on the go. It's waiting for me to discover some better (and easier) tech to build it with. All the ones before were solving issues with the previous techs, but created a whole suite of new hurdles. Currently, I'm eying up Remix.run, and waiting for their teaser to support Svelte.
 </article>

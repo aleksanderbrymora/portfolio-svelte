@@ -7,7 +7,7 @@
 <nav class="flex justify-between items-center py-3 md:mt-10 container mx-auto px-3">
 	<a href="/" class="flex items-center">
 		<img src="/icons/favicon-32x32.png" alt="Aleksander Brymora logo" />
-		<p class="text-red-800 ml-5 font-medium text-xl invisible sm:visible">Aleksander Brymora</p>
+		<p class="text-red-800 ml-5 text-xl invisible sm:visible font-bold">Aleksander Brymora</p>
 	</a>
 	<ul class="flex gap-5 md:gap-8 font-bold dark:text-zinc-400">
 		<li>
@@ -26,9 +26,3 @@
 		</li>
 	</ul>
 </nav>
-
-<style>
-	p {
-		font-family: Cattedrale;
-	}
-</style>

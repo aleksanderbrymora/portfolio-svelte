@@ -5,7 +5,7 @@
 
 <footer class="mb-24">
 	<h1 class="text-5xl font-bold mb-10">Contact me</h1>
-	<div class="flex flex-col gap-5 text-xl">
+	<div class="flex flex-col gap-5 md:text-xl">
 		<div class="flex gap-3 h-min items-center ">
 			<p>Phone:</p>
 			{#if showPhone}

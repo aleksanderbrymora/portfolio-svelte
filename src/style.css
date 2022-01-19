@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: 'Cattedrale';
-	src: local(''), url('/fonts/Cattedrale.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: 'Heartless';
 	src: local(''), url('/fonts/Heartless.ttf') format('truetype');
 }

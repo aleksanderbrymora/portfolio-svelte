@@ -30,4 +30,3 @@
 <SectionBreak />
 <Languages {paths} />
 <SectionBreak />
-<Contact />
