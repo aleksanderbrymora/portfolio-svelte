@@ -7,7 +7,7 @@ website: https://gimme-cheats-client-git-master.aleksanderbrymora.vercel.app/cre
 
 <style>
     article { @apply prose prose-invert prose-xl mb-32; }
-    img { @apply rounded-lg; }
+    img { @apply rounded-lg max-w-full; }
 </style>
 
 <article>
