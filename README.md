@@ -1,4 +1,9 @@
-# Aleks Brymora Portfolio
+# Aleksander Brymora - Portfolio
 
 Here is my portfolio!
-Written with Svelte Kit cause it's cool
+
+- Built with Svelte Kit.
+- Styled with Tailwind CSS.
+- Content written in Svelte's mdx flavour - MDSVEX
+
+You can visit it at [ohaleks.dev](https://ohaleks.dev/)
