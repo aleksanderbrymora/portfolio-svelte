@@ -38,9 +38,9 @@
 			Portfolio (recursion joke?):
 			<a class="underline text-red-400" href="https://ohaleks.dev"> ohaleks.dev </a>
 		</p>
-		<!-- <p>
-			CV
-			<a class="underline text-red-400" href="https://www.ohaleks.dev" download>download</a>
-		</p> -->
+		<p>
+			CV -
+			<a class="underline text-red-400" href="/CV Aleksander Brymora.pdf" download>download</a>
+		</p>
 	</div>
 </footer>
