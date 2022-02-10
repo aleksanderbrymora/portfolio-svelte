@@ -28,9 +28,13 @@ Both of these hobbies are related in my case, because I wouldn't get into 3D pri
 
 It's a lovely hobby, that let's me analyse my physical needs and design a product perfect for them, that's also ergonomic and most of all COOL looking. Here are some pictures! 
 
-
-
 This hobby was also a great nudge to get some hardware knowledge - not only programming. I got to understand PCB design, played with USB Protocol, learned to read someones huge project with little knowledge of C ([here is what's used for keyboard software btw](https://github.com/qmk/qmk_firmware)) and debug real life problems - like bad soldering joints, fried or mounted in wrong direction diodes.
+
+## D&D and Worldbuilding
+
+One of my biggest hobbies is creating and discovering new worlds created by others. I'm an avid reader of r/worldbuilding. 
+
+I also create my own homebrew campaigns that I run for others, with my own twists and takes on classic D&D 5e rules.
 
 ## Woodworking
 
